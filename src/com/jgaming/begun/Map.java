@@ -18,7 +18,7 @@ public class Map extends JPanel implements ActionListener {
 
 	Font font = new Font("Arial", Font.BOLD, 25);
 	
-	Image img = new ImageIcon(getClass().getResource("res/bg.png")).getImage();
+	Image img = new ImageIcon("res/bg.png").getImage();
 	Begun pl = new Begun();
 	Timer mainTimer = new Timer(20, this);
 	public Map(){
