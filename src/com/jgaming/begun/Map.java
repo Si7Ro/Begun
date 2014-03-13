@@ -32,7 +32,7 @@ public class Map extends JPanel implements ActionListener {
 		g.drawImage(img, pl.map_layer1, 0, null);
 		g.drawImage(img, pl.map_layer2, 0, null);
 		g.drawImage(pl.img, 200, 375, null);
-		g.drawString("DISTANCE: " + pl.distance + " êì", 10, 25);
+		g.drawString("DISTANCE: " + pl.distance + " ÐºÐ¼", 10, 25);
 		g.drawLine(220, 0, 220, 35);
 		g.drawLine(0, 35, 220, 35);
 
